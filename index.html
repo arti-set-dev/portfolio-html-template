@@ -31,49 +31,708 @@
 
     <body class="antialiased">
         <div id="__next">
-            <div class="fixed inset-0 z-50 flex items-center justify-center bg-background" style="opacity:1">
-                <div class="text-center max-w-md w-full px-8">
-                    <div class="mb-12" style="opacity:0;transform:scale(0.8)">
-                        <h1 class="text-5xl md:text-6xl font-bold mb-4" style="color:#6366f1">webupe</h1>
-                        <p class="text-muted-foreground text-xl" style="opacity:0;transform:translateY(20px)">Creative Portfolio</p>
-                    </div>
-                    <div class="relative mb-8" style="opacity:0">
-                        <div class="w-20 h-20 mx-auto border-4 border-muted rounded-full" style="border-top-color:#6366f1"></div>
-                        <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-16 h-16 border-4 border-transparent rounded-full" style="border-bottom-color:#8b5cf6"></div>
-                        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full" style="background-color:#06b6d4"></div>
-                    </div>
-                    <div class="mb-6" style="opacity:0;transform:translateY(20px)">
-                        <div class="w-full bg-muted rounded-full h-2 mb-4">
-                            <div class="h-2 rounded-full" style="background-color:#6366f1;width:0%"></div>
+            <div class="min-h-screen bg-background text-foreground overflow-x-hidden" style="opacity:0"><button class="fixed left-4 top-1/2 -translate-y-1/2 z-50 bg-primary text-primary-foreground p-3 rounded-full shadow-lg hover:scale-110 transition-transform cursor-pointer" tabindex="0" style="background-color:#6366f1;opacity:0;transform:translateX(-100px)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings w-5 h-5" aria-hidden="true">
+                        <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg></button>
+                <div style="opacity:0;transform:translateY(-50px)">
+                    <nav class="fixed top-0 w-full bg-background/90 backdrop-blur-md border-b border-border z-40" style="transform:translateY(-100px)">
+                        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                            <div class="flex justify-between items-center h-16">
+                                <div class="text-2xl font-bold cursor-pointer" style="color:#6366f1">webupe</div>
+                                <div class="hidden md:flex items-center space-x-8"><button class="text-foreground hover:text-primary transition-colors cursor-pointer">Home</button><button class="text-foreground hover:text-primary transition-colors cursor-pointer">About</button><button class="text-foreground hover:text-primary transition-colors cursor-pointer">Services</button><button class="text-foreground hover:text-primary transition-colors cursor-pointer">Portfolio</button><button class="text-foreground hover:text-primary transition-colors cursor-pointer">Testimonials</button><button class="text-foreground hover:text-primary transition-colors cursor-pointer">Contact</button><button class="p-2 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun w-4 h-4" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <path d="M12 2v2"></path>
+                                            <path d="M12 20v2"></path>
+                                            <path d="m4.93 4.93 1.41 1.41"></path>
+                                            <path d="m17.66 17.66 1.41 1.41"></path>
+                                            <path d="M2 12h2"></path>
+                                            <path d="M20 12h2"></path>
+                                            <path d="m6.34 17.66-1.41 1.41"></path>
+                                            <path d="m19.07 4.93-1.41 1.41"></path>
+                                        </svg></button></div>
+                                <div class="md:hidden flex items-center space-x-2"><button class="p-2 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun w-4 h-4" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <path d="M12 2v2"></path>
+                                            <path d="M12 20v2"></path>
+                                            <path d="m4.93 4.93 1.41 1.41"></path>
+                                            <path d="m17.66 17.66 1.41 1.41"></path>
+                                            <path d="M2 12h2"></path>
+                                            <path d="M20 12h2"></path>
+                                            <path d="m6.34 17.66-1.41 1.41"></path>
+                                            <path d="m19.07 4.93-1.41 1.41"></path>
+                                        </svg></button><button class="p-2 cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-6 h-6" aria-hidden="true">
+                                            <path d="M4 12h16"></path>
+                                            <path d="M4 18h16"></path>
+                                            <path d="M4 6h16"></path>
+                                        </svg></button></div>
+                            </div>
                         </div>
-                        <div class="flex justify-between text-xs text-muted-foreground"><span>0<!-- -->%</span><span>Loading...</span></div>
-                    </div>
-                    <div class="mb-8" style="opacity:0">
-                        <p class="text-muted-foreground" style="opacity:0;transform:translateY(10px)">Initializing portfolio...</p>
-                    </div>
-                    <div class="flex justify-center space-x-3" style="opacity:0">
-                        <div class="w-3 h-3 rounded-full" style="background-color:#6366f1"></div>
-                        <div class="w-3 h-3 rounded-full" style="background-color:#6366f1"></div>
-                        <div class="w-3 h-3 rounded-full" style="background-color:#6366f1"></div>
-                    </div>
+                    </nav>
                 </div>
-                <div class="absolute inset-0 opacity-30" style="background:radial-gradient(circle at 50% 50%, #6366f120, transparent 70%)"></div>
-                <div class="absolute inset-0 overflow-hidden pointer-events-none">
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:23.981086117522477%;top:97.88966715189873%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:24.197028618252414%;top:98.85198955740077%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:1.5892327898616054%;top:12.038450016576308%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:19.735168196441432%;top:80.91141228197469%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:69.2362503484479%;top:15.849796172156093%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:63.233330549185936%;top:21.182968049882934%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:27.476131933898174%;top:48.75899900413741%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:16.662452175909557%;top:34.810113073558945%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:11.851140242960255%;top:74.91877470282668%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:28.691881190501746%;top:45.17908975188922%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:64.71409675091213%;top:99.47987090252192%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:23.54352721154489%;top:40.85084959961567%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:91.90785863241967%;top:56.22384679175971%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:18.43211977497605%;top:72.94928371179417%"></div>
-                    <div class="absolute w-1 h-1 rounded-full" style="background-color:#6366f1;left:47.67207540438436%;top:8.581163399326265%"></div>
+                <main style="opacity:0;transform:translateY(20px)">
+                    <section id="hero" class="min-h-screen flex items-center justify-center px-4 pt-16">
+                        <div class="max-w-7xl mx-auto w-full">
+                            <div class="text-center">
+                                <div class="mb-8" style="transform:scale(0)"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&amp;h=200&amp;fit=crop&amp;crop=face" alt="Profile" class="w-32 h-32 rounded-full mx-auto object-cover border-4" style="border-color:#6366f1" /></div>
+                                <h1 class="text-5xl md:text-7xl font-bold mb-6" style="opacity:0;transform:translateY(50px)">Creative<span style="color:#6366f1" class="block">Designer</span></h1>
+                                <p class="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto" style="opacity:0;transform:translateY(50px)">I craft beautiful digital experiences through thoughtful design and clean code. Specializing in UI/UX design, frontend development, and brand identity.</p>
+                                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12" style="opacity:0;transform:translateY(50px)"><button class="px-8 py-3 rounded-lg text-primary-foreground font-medium hover:opacity-90 transition-opacity cursor-pointer" style="background-color:#6366f1">View My Work</button><a href="/cv.pdf" download="" class="px-8 py-3 rounded-lg border border-border hover:bg-secondary transition-colors inline-block text-center cursor-pointer">Download CV</a></div>
+                                <div class="flex justify-center space-x-6" style="opacity:0"><a href="https://github.com" aria-label="GitHub" target="_blank" rel="noopener noreferrer" class="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5" aria-hidden="true">
+                                            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                        </svg></a><a href="https://linkedin.com" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" class="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin w-5 h-5" aria-hidden="true">
+                                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                            <rect width="4" height="12" x="2" y="9"></rect>
+                                            <circle cx="4" cy="4" r="2"></circle>
+                                        </svg></a><a href="mailto:hello@webupe.com" aria-label="Email" class="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-5 h-5" aria-hidden="true">
+                                            <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                        </svg></a></div>
+                            </div>
+                            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2" style="opacity:0"><button class="p-2 rounded-full hover:bg-secondary transition-colors animate-bounce cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down w-6 h-6" aria-hidden="true">
+                                        <path d="M12 5v14"></path>
+                                        <path d="m19 12-7 7-7-7"></path>
+                                    </svg></button></div>
+                        </div>
+                    </section>
+                    <section id="about" class="py-20 px-4">
+                        <div class="max-w-7xl mx-auto">
+                            <div class="text-center mb-16" style="opacity:0;transform:translateY(50px)">
+                                <h2 class="text-4xl md:text-5xl font-bold mb-6">About <span style="color:#6366f1">Me</span></h2>
+                                <p class="text-xl text-muted-foreground max-w-3xl mx-auto">I&#x27;m a creative designer and developer with over 5 years of experience crafting digital experiences that combine beautiful design with clean, efficient code.</p>
+                            </div>
+                            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                                <div style="opacity:0;transform:translateX(-100px)">
+                                    <h3 class="text-2xl font-bold mb-6">My Story</h3>
+                                    <div class="space-y-4 text-muted-foreground">
+                                        <p>Started my journey in design during college, where I discovered my passion for creating digital experiences that solve real problems. Since then, I&#x27;ve worked with startups, agencies, and established companies.</p>
+                                        <p>I believe in the power of good design to transform businesses and create meaningful connections between brands and their users. My approach combines user research, creative thinking, and technical expertise.</p>
+                                        <p>When I&#x27;m not designing or coding, you&#x27;ll find me exploring new places, reading design books, or experimenting with new technologies and tools.</p>
+                                    </div>
+                                    <div class="grid grid-cols-3 gap-6 mt-8 pt-8 border-t border-border">
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold" style="color:#6366f1">50+</div>
+                                            <div class="text-sm text-muted-foreground">Projects</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold" style="color:#6366f1">30+</div>
+                                            <div class="text-sm text-muted-foreground">Clients</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold" style="color:#6366f1">5+</div>
+                                            <div class="text-sm text-muted-foreground">Years</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="opacity:0;transform:translateX(100px)">
+                                    <h3 class="text-2xl font-bold mb-6">Skills &amp; Expertise</h3>
+                                    <div class="space-y-6 mb-8">
+                                        <div>
+                                            <div class="flex justify-between mb-2"><span class="font-medium">UI/UX Design</span><span class="text-muted-foreground">95<!-- -->%</span></div>
+                                            <div class="w-full bg-secondary rounded-full h-2">
+                                                <div class="h-2 rounded-full" style="background-color:#6366f1;width:0px"></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="flex justify-between mb-2"><span class="font-medium">Frontend Development</span><span class="text-muted-foreground">90<!-- -->%</span></div>
+                                            <div class="w-full bg-secondary rounded-full h-2">
+                                                <div class="h-2 rounded-full" style="background-color:#8b5cf6;width:0px"></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="flex justify-between mb-2"><span class="font-medium">React &amp; TypeScript</span><span class="text-muted-foreground">85<!-- -->%</span></div>
+                                            <div class="w-full bg-secondary rounded-full h-2">
+                                                <div class="h-2 rounded-full" style="background-color:#06b6d4;width:0px"></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="flex justify-between mb-2"><span class="font-medium">Brand Identity</span><span class="text-muted-foreground">80<!-- -->%</span></div>
+                                            <div class="w-full bg-secondary rounded-full h-2">
+                                                <div class="h-2 rounded-full" style="background-color:#6366f1;width:0px"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 gap-4">
+                                        <div class="p-4 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors" style="opacity:0;transform:translateY(50px)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-palette w-8 h-8 mb-3" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"></path>
+                                                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                                            </svg>
+                                            <h4 class="font-medium mb-2">UI/UX Design</h4>
+                                            <p class="text-sm text-muted-foreground">Creating beautiful and intuitive user interfaces</p>
+                                        </div>
+                                        <div class="p-4 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors" style="opacity:0;transform:translateY(50px)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code w-8 h-8 mb-3" aria-hidden="true" style="color:#6366f1">
+                                                <path d="m16 18 6-6-6-6"></path>
+                                                <path d="m8 6-6 6 6 6"></path>
+                                            </svg>
+                                            <h4 class="font-medium mb-2">Frontend Development</h4>
+                                            <p class="text-sm text-muted-foreground">Building responsive and interactive web applications</p>
+                                        </div>
+                                        <div class="p-4 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors" style="opacity:0;transform:translateY(50px)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone w-8 h-8 mb-3" aria-hidden="true" style="color:#6366f1">
+                                                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                                <path d="M12 18h.01"></path>
+                                            </svg>
+                                            <h4 class="font-medium mb-2">Mobile Design</h4>
+                                            <p class="text-sm text-muted-foreground">Designing mobile-first experiences</p>
+                                        </div>
+                                        <div class="p-4 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors" style="opacity:0;transform:translateY(50px)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe w-8 h-8 mb-3" aria-hidden="true" style="color:#6366f1">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                                <path d="M2 12h20"></path>
+                                            </svg>
+                                            <h4 class="font-medium mb-2">Web Strategy</h4>
+                                            <p class="text-sm text-muted-foreground">Planning and executing digital strategies</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="services" class="py-20 px-4 bg-secondary/20">
+                        <div class="max-w-7xl mx-auto">
+                            <div class="text-center mb-16" style="opacity:0;transform:translateY(50px)">
+                                <h2 class="text-4xl md:text-5xl font-bold mb-6">My <span style="color:#6366f1">Services</span></h2>
+                                <p class="text-xl text-muted-foreground max-w-3xl mx-auto">I offer a comprehensive range of design and development services to help bring your ideas to life and grow your business.</p>
+                            </div>
+                            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                <div class="bg-background rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-border group relative overflow-hidden" tabindex="0" style="transform-style:preserve-3d;perspective:1000px;opacity:0;transform:translateX(-200px) scale(0.8) rotateY(-90deg)">
+                                    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500" style="background:radial-gradient(circle at 50% 50%, #6366f1, transparent 70%)"></div>
+                                    <div class="flex items-center mb-6" style="opacity:0;transform:translateX(-20px)">
+                                        <div class="p-3 rounded-lg mr-4 relative" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-palette w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"></path>
+                                                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+                                                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                                            </svg>
+                                            <div class="absolute inset-0 rounded-lg" style="background-color:#6366f1"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold" style="opacity:0;transform:translateY(10px)">UI/UX Design</h3>
+                                            <p class="text-sm" style="color:#6366f1;opacity:0;transform:scale(0.8)">From $2,500</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-6" style="opacity:0;transform:translateY(20px)">Creating intuitive and beautiful user interfaces that provide exceptional user experiences.</p>
+                                    <ul class="space-y-3 mb-8" style="opacity:0">
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>User Research
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Wireframing
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Prototyping
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Visual Design
+                                        </li>
+                                    </ul><button class="w-full py-3 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-all duration-300 cursor-pointer relative overflow-hidden" tabindex="0" style="background-color:#6366f1;opacity:0;transform:translateY(20px)">
+                                        <div class="absolute inset-0 rounded-lg" style="background-color:#8b5cf6;transform:translateX(-100%)"></div><span class="relative z-10">Get Started</span>
+                                    </button>
+                                </div>
+                                <div class="bg-background rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-border group relative overflow-hidden" tabindex="0" style="transform-style:preserve-3d;perspective:1000px;opacity:0;transform:translateX(200px) scale(0.5) rotate(45deg)">
+                                    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500" style="background:radial-gradient(circle at 50% 50%, #6366f1, transparent 70%)"></div>
+                                    <div class="flex items-center mb-6" style="opacity:0;transform:translateX(-20px)">
+                                        <div class="p-3 rounded-lg mr-4 relative" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                <path d="m16 18 6-6-6-6"></path>
+                                                <path d="m8 6-6 6 6 6"></path>
+                                            </svg>
+                                            <div class="absolute inset-0 rounded-lg" style="background-color:#6366f1"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold" style="opacity:0;transform:translateY(10px)">Frontend Development</h3>
+                                            <p class="text-sm" style="color:#6366f1;opacity:0;transform:scale(0.8)">From $3,000</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-6" style="opacity:0;transform:translateY(20px)">Building responsive, fast, and interactive web applications using modern technologies.</p>
+                                    <ul class="space-y-3 mb-8" style="opacity:0">
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>React/Vue.js
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>TypeScript
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Tailwind CSS
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Performance Optimization
+                                        </li>
+                                    </ul><button class="w-full py-3 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-all duration-300 cursor-pointer relative overflow-hidden" tabindex="0" style="background-color:#6366f1;opacity:0;transform:translateY(20px)">
+                                        <div class="absolute inset-0 rounded-lg" style="background-color:#8b5cf6;transform:translateX(-100%)"></div><span class="relative z-10">Get Started</span>
+                                    </button>
+                                </div>
+                                <div class="bg-background rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-border group relative overflow-hidden" tabindex="0" style="transform-style:preserve-3d;perspective:1000px;opacity:0;transform:translateY(150px) scale(0.7) rotateX(90deg)">
+                                    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500" style="background:radial-gradient(circle at 50% 50%, #6366f1, transparent 70%)"></div>
+                                    <div class="flex items-center mb-6" style="opacity:0;transform:translateX(-20px)">
+                                        <div class="p-3 rounded-lg mr-4 relative" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                                <path d="M12 18h.01"></path>
+                                            </svg>
+                                            <div class="absolute inset-0 rounded-lg" style="background-color:#6366f1"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold" style="opacity:0;transform:translateY(10px)">Mobile App Design</h3>
+                                            <p class="text-sm" style="color:#6366f1;opacity:0;transform:scale(0.8)">From $2,000</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-6" style="opacity:0;transform:translateY(20px)">Designing mobile-first experiences that work seamlessly across all devices.</p>
+                                    <ul class="space-y-3 mb-8" style="opacity:0">
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>iOS/Android Design
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Cross-platform
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>App Store Guidelines
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>User Testing
+                                        </li>
+                                    </ul><button class="w-full py-3 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-all duration-300 cursor-pointer relative overflow-hidden" tabindex="0" style="background-color:#6366f1;opacity:0;transform:translateY(20px)">
+                                        <div class="absolute inset-0 rounded-lg" style="background-color:#8b5cf6;transform:translateX(-100%)"></div><span class="relative z-10">Get Started</span>
+                                    </button>
+                                </div>
+                                <div class="bg-background rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-border group relative overflow-hidden" tabindex="0" style="transform-style:preserve-3d;perspective:1000px;opacity:0;transform:translateX(100px) translateY(100px) scale(0) rotate(-180deg)">
+                                    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500" style="background:radial-gradient(circle at 50% 50%, #6366f1, transparent 70%)"></div>
+                                    <div class="flex items-center mb-6" style="opacity:0;transform:translateX(-20px)">
+                                        <div class="p-3 rounded-lg mr-4 relative" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                                <path d="M2 12h20"></path>
+                                            </svg>
+                                            <div class="absolute inset-0 rounded-lg" style="background-color:#6366f1"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold" style="opacity:0;transform:translateY(10px)">Brand Identity</h3>
+                                            <p class="text-sm" style="color:#6366f1;opacity:0;transform:scale(0.8)">From $1,500</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-6" style="opacity:0;transform:translateY(20px)">Developing comprehensive brand identities that tell your story and connect with your audience.</p>
+                                    <ul class="space-y-3 mb-8" style="opacity:0">
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Logo Design
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Brand Guidelines
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Color Palettes
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Typography
+                                        </li>
+                                    </ul><button class="w-full py-3 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-all duration-300 cursor-pointer relative overflow-hidden" tabindex="0" style="background-color:#6366f1;opacity:0;transform:translateY(20px)">
+                                        <div class="absolute inset-0 rounded-lg" style="background-color:#8b5cf6;transform:translateX(-100%)"></div><span class="relative z-10">Get Started</span>
+                                    </button>
+                                </div>
+                                <div class="bg-background rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-border group relative overflow-hidden" tabindex="0" style="transform-style:preserve-3d;perspective:1000px;opacity:0;transform:translateY(-100px) scale(0)">
+                                    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500" style="background:radial-gradient(circle at 50% 50%, #6366f1, transparent 70%)"></div>
+                                    <div class="flex items-center mb-6" style="opacity:0;transform:translateX(-20px)">
+                                        <div class="p-3 rounded-lg mr-4 relative" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                <path d="m21 21-4.34-4.34"></path>
+                                                <circle cx="11" cy="11" r="8"></circle>
+                                            </svg>
+                                            <div class="absolute inset-0 rounded-lg" style="background-color:#6366f1"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold" style="opacity:0;transform:translateY(10px)">Web Strategy</h3>
+                                            <p class="text-sm" style="color:#6366f1;opacity:0;transform:scale(0.8)">From $1,000</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-6" style="opacity:0;transform:translateY(20px)">Planning and executing digital strategies that drive growth and achieve business goals.</p>
+                                    <ul class="space-y-3 mb-8" style="opacity:0">
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>SEO Optimization
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Analytics Setup
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Content Strategy
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Conversion Optimization
+                                        </li>
+                                    </ul><button class="w-full py-3 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-all duration-300 cursor-pointer relative overflow-hidden" tabindex="0" style="background-color:#6366f1;opacity:0;transform:translateY(20px)">
+                                        <div class="absolute inset-0 rounded-lg" style="background-color:#8b5cf6;transform:translateX(-100%)"></div><span class="relative z-10">Get Started</span>
+                                    </button>
+                                </div>
+                                <div class="bg-background rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-border group relative overflow-hidden" tabindex="0" style="transform-style:preserve-3d;perspective:1000px;opacity:0;transform:translateX(-47.946213733156924px) translateY(80px) scale(0.8) rotate(15deg)">
+                                    <div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500" style="background:radial-gradient(circle at 50% 50%, #6366f1, transparent 70%)"></div>
+                                    <div class="flex items-center mb-6" style="opacity:0;transform:translateX(-20px)">
+                                        <div class="p-3 rounded-lg mr-4 relative" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                                            </svg>
+                                            <div class="absolute inset-0 rounded-lg" style="background-color:#6366f1"></div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold" style="opacity:0;transform:translateY(10px)">Full Stack Development</h3>
+                                            <p class="text-sm" style="color:#6366f1;opacity:0;transform:scale(0.8)">From $5,000</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-6" style="opacity:0;transform:translateY(20px)">End-to-end development solutions from concept to deployment and maintenance.</p>
+                                    <ul class="space-y-3 mb-8" style="opacity:0">
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Database Design
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>API Development
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Cloud Deployment
+                                        </li>
+                                        <li class="flex items-center text-sm" style="opacity:0;transform:translateX(-20px)">
+                                            <div class="w-2 h-2 rounded-full mr-3" style="background-color:#6366f1"></div>Maintenance
+                                        </li>
+                                    </ul><button class="w-full py-3 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-all duration-300 cursor-pointer relative overflow-hidden" tabindex="0" style="background-color:#6366f1;opacity:0;transform:translateY(20px)">
+                                        <div class="absolute inset-0 rounded-lg" style="background-color:#8b5cf6;transform:translateX(-100%)"></div><span class="relative z-10">Get Started</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="text-center mt-16 p-8 rounded-2xl relative overflow-hidden" style="background-color:#6366f110;opacity:0;transform:translateY(100px) scale(0.9)">
+                                <div class="absolute inset-0 opacity-5" style="background-image:radial-gradient(circle, #6366f1 1px, transparent 1px);background-size:20px 20px"></div>
+                                <h3 class="text-2xl font-bold mb-4" style="opacity:0;transform:translateY(20px)">Need Something Custom?</h3>
+                                <p class="text-muted-foreground mb-6 max-w-2xl mx-auto" style="opacity:0;transform:translateY(20px)">Every project is unique. Let&#x27;s discuss your specific needs and create a tailored solution that perfectly fits your requirements and budget.</p><button class="px-8 py-3 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-all duration-300 cursor-pointer relative overflow-hidden" tabindex="0" style="background-color:#6366f1;opacity:0;transform:scale(0.8)"><span class="relative z-10">Let&#x27;s Talk</span></button>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="portfolio" class="py-20 px-4">
+                        <div class="max-w-7xl mx-auto">
+                            <div class="text-center mb-16" style="opacity:0;transform:translateY(50px)">
+                                <h2 class="text-4xl md:text-5xl font-bold mb-6">My <span style="color:#6366f1">Portfolio</span></h2>
+                                <p class="text-xl text-muted-foreground max-w-3xl mx-auto">Here&#x27;s a selection of projects I&#x27;ve worked on recently. Each project represents a unique challenge and creative solution.</p>
+                            </div>
+                            <div class="flex flex-wrap justify-center gap-4 mb-12" style="opacity:0;transform:translateY(50px)"><button class="px-6 py-3 rounded-full font-medium transition-all cursor-pointer text-primary-foreground" style="background-color:#6366f1">All Projects</button><button class="px-6 py-3 rounded-full font-medium transition-all cursor-pointer text-foreground hover:bg-secondary" style="background-color:transparent">Web Design</button><button class="px-6 py-3 rounded-full font-medium transition-all cursor-pointer text-foreground hover:bg-secondary" style="background-color:transparent">Mobile Apps</button><button class="px-6 py-3 rounded-full font-medium transition-all cursor-pointer text-foreground hover:bg-secondary" style="background-color:transparent">Branding</button><button class="px-6 py-3 rounded-full font-medium transition-all cursor-pointer text-foreground hover:bg-secondary" style="background-color:transparent">Development</button></div>
+                            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                <div class="group bg-background rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border" style="opacity:0;transform:scale(0.9)">
+                                    <div class="relative overflow-hidden"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&amp;h=400&amp;fit=crop" alt="E-commerce Platform" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
+                                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4"><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                                                    <circle cx="12" cy="12" r="3"></circle>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="p-6">
+                                        <h3 class="text-xl font-bold mb-2">E-commerce Platform</h3>
+                                        <p class="text-muted-foreground mb-4 text-sm">Modern e-commerce platform with advanced filtering and payment integration.</p>
+                                        <div class="flex flex-wrap gap-2"><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">React</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">TypeScript</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Stripe</span></div>
+                                    </div>
+                                </div>
+                                <div class="group bg-background rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border" style="opacity:0;transform:scale(0.9)">
+                                    <div class="relative overflow-hidden"><img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&amp;h=400&amp;fit=crop" alt="Fitness Mobile App" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
+                                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4"><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                                                    <circle cx="12" cy="12" r="3"></circle>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="p-6">
+                                        <h3 class="text-xl font-bold mb-2">Fitness Mobile App</h3>
+                                        <p class="text-muted-foreground mb-4 text-sm">iOS and Android app for tracking workouts and nutrition with social features.</p>
+                                        <div class="flex flex-wrap gap-2"><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">React Native</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Firebase</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Design</span></div>
+                                    </div>
+                                </div>
+                                <div class="group bg-background rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border" style="opacity:0;transform:scale(0.9)">
+                                    <div class="relative overflow-hidden"><img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&amp;h=400&amp;fit=crop" alt="Tech Startup Branding" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
+                                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4"><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                                                    <circle cx="12" cy="12" r="3"></circle>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="p-6">
+                                        <h3 class="text-xl font-bold mb-2">Tech Startup Branding</h3>
+                                        <p class="text-muted-foreground mb-4 text-sm">Complete brand identity for a fintech startup including logo and guidelines.</p>
+                                        <div class="flex flex-wrap gap-2"><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Branding</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Logo Design</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Guidelines</span></div>
+                                    </div>
+                                </div>
+                                <div class="group bg-background rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border" style="opacity:0;transform:scale(0.9)">
+                                    <div class="relative overflow-hidden"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&amp;h=400&amp;fit=crop" alt="SaaS Dashboard" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
+                                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4"><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                                                    <circle cx="12" cy="12" r="3"></circle>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="p-6">
+                                        <h3 class="text-xl font-bold mb-2">SaaS Dashboard</h3>
+                                        <p class="text-muted-foreground mb-4 text-sm">Analytics dashboard for SaaS platform with real-time data visualization.</p>
+                                        <div class="flex flex-wrap gap-2"><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Vue.js</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">D3.js</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">API</span></div>
+                                    </div>
+                                </div>
+                                <div class="group bg-background rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border" style="opacity:0;transform:scale(0.9)">
+                                    <div class="relative overflow-hidden"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&amp;h=400&amp;fit=crop" alt="Restaurant Website" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
+                                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4"><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                                                    <circle cx="12" cy="12" r="3"></circle>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="p-6">
+                                        <h3 class="text-xl font-bold mb-2">Restaurant Website</h3>
+                                        <p class="text-muted-foreground mb-4 text-sm">Full-stack restaurant website with online ordering and table reservations.</p>
+                                        <div class="flex flex-wrap gap-2"><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Next.js</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">PostgreSQL</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Stripe</span></div>
+                                    </div>
+                                </div>
+                                <div class="group bg-background rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border" style="opacity:0;transform:scale(0.9)">
+                                    <div class="relative overflow-hidden"><img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&amp;h=400&amp;fit=crop" alt="Travel Planning App" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
+                                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4"><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                                                    <circle cx="12" cy="12" r="3"></circle>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                                </svg></a><a href="#" class="p-3 bg-white/20 rounded-full hover:bg-white/30 transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-5 h-5 text-white" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="p-6">
+                                        <h3 class="text-xl font-bold mb-2">Travel Planning App</h3>
+                                        <p class="text-muted-foreground mb-4 text-sm">Mobile app for planning trips with itinerary sharing and local recommendations.</p>
+                                        <div class="flex flex-wrap gap-2"><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Flutter</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Maps API</span><span class="px-3 py-1 text-xs rounded-full text-primary-foreground" style="background-color:#6366f1">Social</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-12" style="opacity:0;transform:translateY(50px)"><a href="https://dribbble.com/webupe" target="_blank" rel="noopener noreferrer" class="px-8 py-3 rounded-lg border border-border hover:bg-secondary transition-colors cursor-pointer inline-block text-center">View All Projects</a></div>
+                        </div>
+                    </section>
+                    <section id="testimonials" class="py-20 px-4 bg-secondary/20">
+                        <div class="max-w-7xl mx-auto">
+                            <div class="text-center mb-16" style="opacity:0;transform:translateY(50px)">
+                                <h2 class="text-4xl md:text-5xl font-bold mb-6">What Clients <span style="color:#6366f1">Say</span></h2>
+                                <p class="text-xl text-muted-foreground max-w-3xl mx-auto">Don&#x27;t just take my word for it. Here&#x27;s what my clients have to say about working with me and the results we&#x27;ve achieved together.</p>
+                            </div>
+                            <div class="max-w-4xl mx-auto">
+                                <div class="relative">
+                                    <div class="bg-background rounded-2xl p-8 md:p-12 shadow-lg border border-border" style="opacity:0;transform:translateX(100px)">
+                                        <div class="flex items-center justify-center mb-8"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-12 h-12 opacity-20" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+                                                <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
+                                            </svg></div>
+                                        <blockquote class="text-xl md:text-2xl text-center mb-8 leading-relaxed">&quot;<!-- -->Working with Alex was an absolute pleasure. The attention to detail and creative problem-solving skills exceeded our expectations. Our new website has significantly improved our conversion rates.<!-- -->&quot;</blockquote>
+                                        <div class="flex items-center justify-center mb-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-current" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-current" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-current" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-current" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-current" aria-hidden="true" style="color:#6366f1">
+                                                <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                            </svg></div>
+                                        <div class="flex items-center justify-center space-x-4"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&amp;h=80&amp;fit=crop&amp;crop=face" alt="Sarah Johnson" class="w-16 h-16 rounded-full object-cover" />
+                                            <div class="text-center">
+                                                <h4 class="font-bold">Sarah Johnson</h4>
+                                                <p class="text-muted-foreground">CEO, TechStart</p>
+                                                <p class="text-sm" style="color:#6366f1">TechStart Inc.</p>
+                                            </div>
+                                        </div>
+                                    </div><button class="absolute left-4 top-1/2 -translate-y-1/2 p-3 rounded-full bg-background border border-border hover:bg-secondary transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left w-6 h-6" aria-hidden="true">
+                                            <path d="m15 18-6-6 6-6"></path>
+                                        </svg></button><button class="absolute right-4 top-1/2 -translate-y-1/2 p-3 rounded-full bg-background border border-border hover:bg-secondary transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right w-6 h-6" aria-hidden="true">
+                                            <path d="m9 18 6-6-6-6"></path>
+                                        </svg></button>
+                                </div>
+                                <div class="flex justify-center space-x-2 mt-8"><button class="w-3 h-3 rounded-full transition-colors cursor-pointer " style="background-color:#6366f1"></button><button class="w-3 h-3 rounded-full transition-colors cursor-pointer bg-secondary"></button><button class="w-3 h-3 rounded-full transition-colors cursor-pointer bg-secondary"></button><button class="w-3 h-3 rounded-full transition-colors cursor-pointer bg-secondary"></button><button class="w-3 h-3 rounded-full transition-colors cursor-pointer bg-secondary"></button></div>
+                            </div>
+                            <div class="grid md:grid-cols-3 gap-8 mt-16 pt-16 border-t border-border" style="opacity:0;transform:translateY(50px)">
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold mb-2" style="color:#6366f1">98%</div>
+                                    <div class="text-muted-foreground">Client Satisfaction</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold mb-2" style="color:#6366f1">50+</div>
+                                    <div class="text-muted-foreground">Projects Completed</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold mb-2" style="color:#6366f1">24/7</div>
+                                    <div class="text-muted-foreground">Support Available</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="contact" class="py-20 px-4">
+                        <div class="max-w-7xl mx-auto">
+                            <div class="text-center mb-16" style="opacity:0;transform:translateY(50px)">
+                                <h2 class="text-4xl md:text-5xl font-bold mb-6">Get In <span style="color:#6366f1">Touch</span></h2>
+                                <p class="text-xl text-muted-foreground max-w-3xl mx-auto">Ready to start your next project? I&#x27;d love to hear from you. Send me a message and I&#x27;ll respond within 24 hours.</p>
+                            </div>
+                            <div class="grid lg:grid-cols-2 gap-16">
+                                <div style="opacity:0;transform:translateX(-100px)">
+                                    <h3 class="text-2xl font-bold mb-8">Let&#x27;s Talk</h3>
+                                    <div class="space-y-6 mb-8"><a href="mailto:hello@webupe.com" class="flex items-center space-x-4 p-4 rounded-lg hover:bg-secondary transition-colors group cursor-pointer" style="opacity:0;transform:translateY(50px)">
+                                            <div class="p-3 rounded-lg" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                                </svg></div>
+                                            <div>
+                                                <h4 class="font-medium group-hover:text-primary transition-colors">Email</h4>
+                                                <p class="text-muted-foreground">hello@webupe.com</p>
+                                            </div>
+                                        </a><a href="tel:+15551234567" class="flex items-center space-x-4 p-4 rounded-lg hover:bg-secondary transition-colors group cursor-pointer" style="opacity:0;transform:translateY(50px)">
+                                            <div class="p-3 rounded-lg" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                                                </svg></div>
+                                            <div>
+                                                <h4 class="font-medium group-hover:text-primary transition-colors">Phone</h4>
+                                                <p class="text-muted-foreground">+1 (555) 123-4567</p>
+                                            </div>
+                                        </a><a href="#" class="flex items-center space-x-4 p-4 rounded-lg hover:bg-secondary transition-colors group cursor-pointer" style="opacity:0;transform:translateY(50px)">
+                                            <div class="p-3 rounded-lg" style="background-color:#6366f120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-6 h-6" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                                                    <circle cx="12" cy="10" r="3"></circle>
+                                                </svg></div>
+                                            <div>
+                                                <h4 class="font-medium group-hover:text-primary transition-colors">Location</h4>
+                                                <p class="text-muted-foreground">San Francisco, CA</p>
+                                            </div>
+                                        </a></div>
+                                    <div class="p-6 rounded-2xl border border-border bg-secondary/30">
+                                        <h4 class="font-bold mb-4">Why Work With Me?</h4>
+                                        <ul class="space-y-3 text-muted-foreground">
+                                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 mr-3" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg>Fast response time (within 24 hours)</li>
+                                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 mr-3" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg>Transparent pricing and timeline</li>
+                                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 mr-3" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg>Regular updates throughout the project</li>
+                                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 mr-3" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg>Post-launch support and maintenance</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div style="opacity:0;transform:translateX(100px)">
+                                    <form class="space-y-6">
+                                        <div class="grid md:grid-cols-2 gap-6">
+                                            <div><label for="name" class="block mb-2">Full Name *</label><input type="text" id="name" class="w-full px-4 py-3 rounded-lg border transition-colors border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="John Doe" name="name" value="" /></div>
+                                            <div><label for="email" class="block mb-2">Email Address *</label><input type="email" id="email" class="w-full px-4 py-3 rounded-lg border transition-colors border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="john@example.com" name="email" value="" /></div>
+                                        </div>
+                                        <div><label for="subject" class="block mb-2">Subject *</label><input type="text" id="subject" class="w-full px-4 py-3 rounded-lg border transition-colors border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="Project Inquiry" name="subject" value="" /></div>
+                                        <div><label for="message" class="block mb-2">Message</label><textarea id="message" name="message" rows="6" class="w-full px-4 py-3 rounded-lg border transition-colors border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none" placeholder="Tell me about your project..."></textarea></div><button type="submit" class="w-full py-4 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-opacity disabled:opacity-70 flex items-center justify-center space-x-2 cursor-pointer disabled:cursor-not-allowed" style="background-color:#6366f1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send w-5 h-5" aria-hidden="true">
+                                                <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                                <path d="m21.854 2.147-10.94 10.939"></path>
+                                            </svg><span>Send Message</span></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <div style="opacity:0">
+                    <footer class="bg-secondary/30 border-t border-border">
+                        <div class="max-w-7xl mx-auto px-4">
+                            <div class="py-16">
+                                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                                    <div class="lg:col-span-2">
+                                        <div class="mb-6" style="opacity:0;transform:translateY(50px)">
+                                            <h3 class="text-3xl font-bold mb-4" style="color:#6366f1">webupe</h3>
+                                            <p class="text-muted-foreground max-w-md">Creating beautiful digital experiences that combine thoughtful design with clean, efficient code. Let&#x27;s build something amazing together.</p>
+                                        </div>
+                                        <div class="flex space-x-4" style="opacity:0;transform:translateY(50px)"><a href="https://github.com" aria-label="GitHub" target="_blank" rel="noopener noreferrer" class="p-3 rounded-lg bg-background border border-border hover:bg-secondary transition-colors group cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                                </svg></a><a href="https://linkedin.com" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" class="p-3 rounded-lg bg-background border border-border hover:bg-secondary transition-colors group cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                                    <rect width="4" height="12" x="2" y="9"></rect>
+                                                    <circle cx="4" cy="4" r="2"></circle>
+                                                </svg></a><a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer" class="p-3 rounded-lg bg-background border border-border hover:bg-secondary transition-colors group cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                                                </svg></a><a href="mailto:hello@webupe.com" aria-label="Email" class="p-3 rounded-lg bg-background border border-border hover:bg-secondary transition-colors group cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-5 h-5 group-hover:scale-110 transition-transform" aria-hidden="true" style="color:#6366f1">
+                                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                                </svg></a></div>
+                                    </div>
+                                    <div style="opacity:0;transform:translateY(50px)">
+                                        <h4 class="font-bold mb-6">Quick Links</h4>
+                                        <ul class="space-y-3">
+                                            <li><button class="text-muted-foreground hover:text-foreground transition-colors cursor-pointer">Home</button></li>
+                                            <li><button class="text-muted-foreground hover:text-foreground transition-colors cursor-pointer">About</button></li>
+                                            <li><button class="text-muted-foreground hover:text-foreground transition-colors cursor-pointer">Services</button></li>
+                                            <li><button class="text-muted-foreground hover:text-foreground transition-colors cursor-pointer">Portfolio</button></li>
+                                            <li><button class="text-muted-foreground hover:text-foreground transition-colors cursor-pointer">Contact</button></li>
+                                        </ul>
+                                    </div>
+                                    <div style="opacity:0;transform:translateY(50px)">
+                                        <h4 class="font-bold mb-6">Services</h4>
+                                        <ul class="space-y-3">
+                                            <li class="text-muted-foreground">UI/UX Design</li>
+                                            <li class="text-muted-foreground">Frontend Development</li>
+                                            <li class="text-muted-foreground">Mobile App Design</li>
+                                            <li class="text-muted-foreground">Brand Identity</li>
+                                            <li class="text-muted-foreground">Web Strategy</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mt-16 pt-16 border-t border-border" style="opacity:0;transform:translateY(50px)">
+                                    <div class="max-w-md mx-auto text-center">
+                                        <h4 class="text-2xl font-bold mb-4">Stay Updated</h4>
+                                        <p class="text-muted-foreground mb-6">Get the latest updates on new projects, design tips, and industry insights.</p>
+                                        <form class="space-y-4">
+                                            <div class="flex gap-3">
+                                                <div class="flex-1"><input type="email" placeholder="Enter your email" class="w-full px-4 py-3 rounded-lg border transition-colors border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/20" value="" /></div><button type="submit" class="px-6 py-3 rounded-lg font-medium text-primary-foreground hover:opacity-90 transition-opacity disabled:opacity-70 flex items-center justify-center space-x-2 cursor-pointer disabled:cursor-not-allowed" style="background-color:#6366f1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send w-5 h-5" aria-hidden="true">
+                                                        <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                                        <path d="m21.854 2.147-10.94 10.939"></path>
+                                                    </svg><span>Subscribe</span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 border-t border-border">
+                                <div class="flex flex-col md:flex-row justify-between items-center">
+                                    <p class="text-muted-foreground flex items-center" style="opacity:0">© 2024 webupe. Made with<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-4 h-4 mx-1 text-red-500" aria-hidden="true">
+                                            <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                                        </svg>and lots of coffee.</p>
+                                    <div class="flex items-center space-x-6 mt-4 md:mt-0" style="opacity:0"><a href="#" class="text-muted-foreground hover:text-foreground transition-colors text-sm cursor-pointer">Privacy Policy</a><a href="#" class="text-muted-foreground hover:text-foreground transition-colors text-sm cursor-pointer">Terms of Service</a><button class="p-2 rounded-lg bg-background border border-border hover:bg-secondary transition-colors cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up w-4 h-4" aria-hidden="true">
+                                                <path d="m5 12 7-7 7 7"></path>
+                                                <path d="M12 19V5"></path>
+                                            </svg></button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
                 </div>
             </div>
         </div>
